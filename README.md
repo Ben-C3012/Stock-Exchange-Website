@@ -1,7 +1,7 @@
 # Stock Exchange Website 📉
 
 Vanilla JS website using Financial Modeling Prep API, Chart JS and Bootstrap for desgin. 
-Real Stock Prices
+Real Stock Prices. 
 
 ## Installation
 
