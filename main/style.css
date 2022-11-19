@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#spinner {
+    position: absolute;
+    top: 11;
+    right: 0;
+    left: 3;
+    margin-right: 20px;
+}
+
+
+/* Marquee */
+
+.marquee {
+    position: absolute;
+    top: 0;
+    height: 30px;
+    width: 100%;
+
+    /* background-color: violet; */
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.marquee div {
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: animate 52s linear infinite;
+}
+
+@keyframes animate {
+ 
+    100% {
+
+        transform: translate(-50rem , 0%);
+    } 
+
+}
+
+#marquee-text:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+.yellobackground {
+    background-color: yellow;
+}
+
